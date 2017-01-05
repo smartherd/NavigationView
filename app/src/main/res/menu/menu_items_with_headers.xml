@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--The drawer items below have been categorized according to headers-->
+	<item
+		android:id="@+id/navigation_item_1"
+		android:title="Social Media">
+		<menu>
+			<item
+				android:id="@+id/item_facebook"
+				android:checkable="true"
+				android:icon="@drawable/ic_facebook"
+				android:title="Facebook"/>
+			<item
+				android:id="@+id/item_instagram"
+				android:checkable="true"
+				android:icon="@drawable/ic_instagram"
+				android:title="Instagram"/>
+
+			<item
+				android:id="@+id/item_linkedin"
+				android:checkable="true"
+				android:icon="@drawable/ic_linkedin"
+				android:title="Linkedin"/>
+
+			<item
+				android:id="@+id/item_pinterest"
+				android:checkable="true"
+				android:icon="@drawable/ic_pinterest"
+				android:title="Pinterest"/>
+
+			<item
+				android:id="@+id/item_twitter"
+				android:checkable="true"
+				android:icon="@drawable/ic_twitter"
+				android:title="Twitter"/>
+
+			<item
+				android:id="@+id/item_gplus"
+				android:checkable="true"
+				android:icon="@drawable/ic_googleplus"
+				android:title="Google Plus"/>
+		</menu>
+	</item>
+
+	<item
+		android:id="@+id/navigation_item_2"
+		android:title="Human Body">
+		<menu>
+			<item
+				android:id="@+id/item_heart"
+				android:checkable="true"
+				android:icon="@drawable/ic_heart"
+				android:title="Heart"/>
+
+			<item
+				android:id="@+id/item_liver"
+				android:checkable="true"
+				android:icon="@drawable/ic_liver"
+				android:title="Liver"/>
+
+			<item
+				android:id="@+id/item_lungs"
+				android:checkable="true"
+				android:icon="@drawable/ic_lungs"
+				android:title="Lungs"/>
+
+			<item
+				android:id="@+id/item_skull"
+				android:checkable="true"
+				android:icon="@drawable/ic_skull"
+				android:title="Skull"/>
+
+			<item
+				android:id="@+id/item_stomach"
+				android:checkable="true"
+				android:icon="@drawable/ic_stomach"
+				android:title="Stomach"/>
+
+			<item
+				android:id="@+id/item_tooth"
+				android:checkable="true"
+				android:icon="@drawable/ic_tooth"
+				android:title="Tooth"/>
+		</menu>
+	</item>
+
+	<item
+		android:id="@+id/navigation_item3"
+		android:title="Sports">
+
+		<menu>
+			<item
+				android:id="@+id/item_exercise"
+				android:checkable="true"
+				android:icon="@drawable/ic_exercise"
+				android:title="Exercise"/>
+			<item
+				android:id="@+id/item_pushups"
+				android:checkable="true"
+				android:icon="@drawable/ic_pushups"
+				android:title="Pushups"/>
+
+			<item
+				android:id="@+id/item_running"
+				android:checkable="true"
+				android:icon="@drawable/ic_running"
+				android:title="Running"/>
+
+			<item
+				android:id="@+id/item_walking"
+				android:checkable="true"
+				android:icon="@drawable/ic_walking"
+				android:title="Walking"/>
+
+			<item
+				android:id="@+id/item_yoga"
+				android:checkable="true"
+				android:icon="@drawable/ic_yoga"
+				android:title="Yoga"/>
+		</menu>
+	</item>
+
+	<item
+		android:id="@+id/navigation_item4"
+		android:title="E-commerce">
+
+		<menu>
+			<item
+				android:id="@+id/item_bag"
+				android:checkable="true"
+				android:icon="@drawable/ic_bag"
+				android:title="Bag"/>
+			<item
+				android:id="@+id/item_cart"
+				android:checkable="true"
+				android:icon="@drawable/ic_cart"
+				android:title="Cart"/>
+
+			<item
+				android:id="@+id/item_product"
+				android:checkable="true"
+				android:icon="@drawable/ic_product"
+				android:title="Product"/>
+
+			<item
+				android:id="@+id/item_receipt"
+				android:checkable="true"
+				android:icon="@drawable/ic_receipt"
+				android:title="Receipt"/>
+
+			<item
+				android:id="@+id/item_shop"
+				android:checkable="true"
+				android:icon="@drawable/ic_shop"
+				android:title="Shop"/>
+		</menu>
+	</item>
+
+</menu>

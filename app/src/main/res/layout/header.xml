@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="190dp"
+	android:background="@drawable/header_background">
+
+	<!-- Subtitle : 56dp -->
+	<!--  Name: Roboto Medium, 14sp, #FFFFFF -->
+	<!--  Email address: Roboto Regular, 14sp, #FFFFFF -->
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="56dp"
+		android:layout_alignParentBottom="true"
+		android:orientation="vertical"
+		android:paddingBottom="15dp"
+		android:paddingLeft="15dp">
+
+		<TextView
+			android:id="@+id/txvName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:fontFamily="sans-serif-medium"
+			android:gravity="bottom"
+			android:text="Smartherd"
+			android:textColor="#FFFFFF"
+			android:textSize="14sp"/>
+
+		<TextView
+			android:id="@+id/txvEmail"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:fontFamily="sans-serif"
+			android:gravity="bottom"
+			android:text="smartherd@gmail.com"
+			android:textColor="#FFFFFF"
+			android:textSize="14sp"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
